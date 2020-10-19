@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Display />
+      <Button id='AC' />
+      <Button id='divide' />
+      <Button id='multiply' />
+      <Button id='seven' />
+      <Button id='eight' />
+      <Button id='nine' />
+      <Button id='minus' />
+      <Button id='four' />
+      <Button id='five' />
+      <Button id='six' />
+      <Button id='plus' />
+      <Button id='one' />
+      <Button id='two' />
+      <Button id='three' />
+      <Button id='equals' />
+      <Button id='zero' />
+      <Button id='decimal' />
+
     </div>
   );
 }
